@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AgenceyManincontent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+
+        <SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/lavender_border"
+            android:queryHint="Search"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_2"
+                android:padding="10dp" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_3"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/earth_button"
+                android:layout_width="163dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:text="Earthquake"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:cornerRadius = "20dp"/>
+
+            <Button
+                android:id="@+id/ag_button"
+                android:layout_width="163dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:text="Avalanche"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius = "20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_1"
+                android:padding="20dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_4"
+                android:padding="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ag2_button"
+                android:layout_width="163dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:text="Landslide"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:cornerRadius = "20dp"/>
+
+            <Button
+                android:id="@+id/ag3_button"
+                android:layout_width="163dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:text="HeaySnowfall"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:cornerRadius = "20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_5"
+                android:padding="10dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_6"
+                android:padding="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ag4_button"
+                android:layout_width="163dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:text="FireAccident"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:cornerRadius = "20dp"/>
+
+            <Button
+                android:id="@+id/ag5_button"
+                android:layout_width="163dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:text="Hurricane"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:cornerRadius = "20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_1"
+                android:padding="10dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_7"
+                android:padding="10dp"
+                app:cornerRadius = "30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ag6_button"
+                android:layout_width="163dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:text="DamOverflow"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:cornerRadius = "20dp"/>
+
+            <Button
+                android:id="@+id/ag7_button"
+                android:layout_width="163dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:text="Flood"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                app:cornerRadius = "20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

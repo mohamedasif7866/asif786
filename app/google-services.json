@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197813434517",
+    "project_id": "rescues1",
+    "storage_bucket": "rescues1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197813434517:android:a6db7c67a091004288439c",
+        "android_client_info": {
+          "package_name": "com.example.rescues"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBurC6rNJFT8Xnb4CEw3ECFPRf63FeoOwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

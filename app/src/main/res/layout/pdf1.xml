@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".ActivityPdf">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="85dp"
+            android:background="@drawable/baseline_picture_as_pdf_24"
+            android:padding="0dp" />
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:padding="3dp"
+            android:text="No PDF File Selected yet !"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:padding="3dp"
+            android:text="Upload your PDF file !"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/selectPdfButton"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:text="Select PDF"
+            android:textSize="18sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/uploadBtn"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:text="Upload PDF"
+            android:textSize="18sp"
+            app:cornerRadius="30dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/purple_200"
+            app:layout_constraintBottom_toTopOf="@+id/guideline4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:layout_marginStart="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    </LinearLayout>
+</ScrollView>
